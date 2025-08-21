@@ -4,6 +4,8 @@
 
 ![deb-get-apt-hook.gif](https://github.com/tmiland/deb-get-apt-hook/blob/main/res/deb-get-apt-hook.gif?raw=true)
 
+Depends on [wimpysworld/deb-get/pull/1499](https://github.com/wimpysworld/deb-get/pull/1499)
+
 ## Install
 
 - Latest release
