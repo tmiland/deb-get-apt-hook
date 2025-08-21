@@ -1,0 +1,1 @@
+APT::Update::Post-Invoke { "/usr/bin/deb_get_apt_hook.sh"; };
