@@ -103,8 +103,6 @@ then
       rm $tmp
     fi
   fi
-else
-  error "Running deb-get update via deb-get-apt-hook..."
 fi
 
 exit 0
