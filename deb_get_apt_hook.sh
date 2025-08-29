@@ -11,7 +11,7 @@
 ####                   Maintained by @tmiland                     ####
 ######################################################################
 
-VERSION='1.0.1'
+VERSION='1.0.2'
 
 #------------------------------------------------------------------------------#
 #
@@ -91,7 +91,7 @@ then
       ok "Running deb-get update via deb-get-apt-hook..."
       DISABLE_APT=y \
         deb-get update | tee $tmp || error "Unable to run deb-get update..."
-      if grep "has an update pending" $tmp
+      if grep "has an update pending" $tmp >/dev/null 2>&1
       then
         read -rp "      do you want to upgrade deb-get packages? [y/n] " q
         if [ "$q" == "y" ]; then
